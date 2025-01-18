@@ -1,0 +1,6 @@
+<form action="enviar.php" method="POST">
+    <input type="text" name="nome" placeholder="Seu Nome" required>
+    <input type="email" name="email" placeholder="Seu Email" required>
+    <textarea name="mensagem" placeholder="Sua Mensagem"></textarea>
+    <button type="submit">Enviar</button>
+</form>
